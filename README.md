@@ -1,5 +1,3 @@
-Here's a suggested README for your project:
-
 # Stock Searcher
 
 A React application for searching and fetching stock data from the Alpha Vantage API.
@@ -9,8 +7,6 @@ A React application for searching and fetching stock data from the Alpha Vantage
 - [Overview](#overview)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -54,13 +50,3 @@ The Stock Searcher application a straightforward interface for users to search f
 4. Select the desired intraday interval from the "Intraday Interval" dropdown.
 5. Click the "Search" button.
 6. The stock data will be displayed below the form.
-
-## Contributing
-
-Contributions are welcome! Please follow the guidelines below:
-
-1. Fork the repository on GitHub.
-2. Create a branch for your changes.
-3. Commit your changes and open a pull request.
-4. Ensure that your code follows the existing code style and best practices.
-5. Provide clear and concise documentation for your changes.
