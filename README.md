@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Here's a suggested README for your project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stock Searcher
 
-## Available Scripts
+A React application for searching and fetching stock data from the Alpha Vantage API.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Stock Searcher is a simple React application that allows users to search for stock symbols and retrieve real-time stock data. It utilizes the Alpha Vantage API to fetch stock information. The application provides a user-friendly interface to select the desired time interval and intraday interval for the stock data.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with the project, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```
+   git clone https://github.com/KevinAtEarth/stock-searcher.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Set up your Alpha Vantage API key:
+    1. Create a `.env` file in the root directory of the project.
+    2. Add your API key as an environment variable:
+       ```
+       REACT_APP_ALPHA_API_KEY=your_api_key_here
+       ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-### `npm run eject`
+5. Open your browser and visit http://localhost:3000/ to view the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Stock Searcher application a straightforward interface for users to search for stock data. Here's how to use it:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open the application in your browser.
+2. Enter the stock symbol you want to search for in the "Stock Symbol" input field.
+3. Select the desired time interval from the "Time Interval" dropdown.
+4. Select the desired intraday interval from the "Intraday Interval" dropdown.
+5. Click the "Search" button.
+6. The stock data will be displayed below the form.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are welcome! Please follow the guidelines below:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository on GitHub.
+2. Create a branch for your changes.
+3. Commit your changes and open a pull request.
+4. Ensure that your code follows the existing code style and best practices.
+5. Provide clear and concise documentation for your changes.
